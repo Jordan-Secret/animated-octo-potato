@@ -1,0 +1,23 @@
+{
+  "name": "animated-octo-potato",
+  "version": "1.0.0",
+  "description": "Simple API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordan-Secret/animated-octo-potato.git"
+  },
+  "author": "Jordan S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordan-Secret/animated-octo-potato/issues"
+  },
+  "homepage": "https://github.com/Jordan-Secret/animated-octo-potato#readme",
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
