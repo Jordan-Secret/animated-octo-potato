@@ -13,8 +13,8 @@ router
 
 router
   .route('/:id')
-  .get(tourController.getOne)
-  .patch(tourController.update)
-  .delete(tourController.delete);
+  .get(controller.getOne)
+  .patch(controller.update)
+  .delete(controller.delete);
 
 module.exports = router;
