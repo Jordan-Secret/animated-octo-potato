@@ -17,19 +17,20 @@ exports.getAll = (req, res, next) => {
     data: 'x, y, z'
   });
 }
-
+//require a :id
 exports.getOne = (req, res, next) => {
 	const x = req.params.id;
 	res.status(200).json({
     status: 'success',
-    data: 'x'
+    data: 'getting ' + x
   });
 }
 
 exports.update = (req, res, next) => {
+	const x = req.params.id;
 	res.status(200).json({
     status: 'success',
-    data: 'x'
+    data: 'updating ' + x
   });
 }
 
@@ -37,7 +38,7 @@ exports.delete = (req, res, next) => {
 	const x = req.params.id;
 	res.status(204).json({
     status: 'success',
-    data: 'this will delete ${x}'
+    data: 'this will delete ' + x
   });
 }
 
